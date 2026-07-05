@@ -1,3 +1,5 @@
+# odin-recipes.
+
 About
 
 this project is a simple recipe website that consists of:
