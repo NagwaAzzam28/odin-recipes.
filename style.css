@@ -18,14 +18,33 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    gap: 35px;
+    gap: 50px;
 }
 
 .main-heading {
     color: #1F2238;
     text-transform: uppercase;
-    border-bottom: 1px solid #C46A1A;
-    padding-bottom: 10px;
+    color: #9A5A22
 
 }
 
+.recipes-list {
+    list-style: none;
+}
+
+.recipes-list li {
+    border-bottom: 1px solid rgba(196, 106, 26, .6);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px 20px 10px;
+
+    
+
+}
+
+.recipes-list a {
+    color: #1F2238;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+} 
